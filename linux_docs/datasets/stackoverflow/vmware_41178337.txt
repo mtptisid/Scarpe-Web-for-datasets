@@ -1,0 +1,11 @@
+Title: ovftool export from esxi4 always locator not refer to an object error
+
+Question: 
+
+Answers:
+Answer 1: 
+
+Answer 2: 
+
+Answer 3: 
+

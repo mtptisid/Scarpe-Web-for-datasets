@@ -1,0 +1,5 @@
+Title: Packer or terraform vsphere use case issue
+
+Question: 
+
+Answers:

@@ -1,0 +1,7 @@
+Title: How do I enable VMWare Player shared folders programmatically?
+
+Question: 
+
+Answers:
+Answer 1: 
+

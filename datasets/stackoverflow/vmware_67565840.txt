@@ -1,0 +1,9 @@
+Title: How can I use physical computer&#39;s GPU on VMware Workstation?
+
+Question: 
+
+Answers:
+Answer 1: 
+
+Answer 2: 
+

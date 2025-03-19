@@ -1,0 +1,11 @@
+Title: Building vSphere DLLs fails with CS8078: An expression is too long or complex to compile
+
+Question: 
+
+Answers:
+Answer 1: 
+
+Answer 2: 
+
+Answer 3: 
+

@@ -1,0 +1,5 @@
+Title: Failure to run Ansible on VM created with VMware using Packer
+
+Question: 
+
+Answers:

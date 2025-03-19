@@ -1,0 +1,11 @@
+Title: NSX Load Balancer not working with IIS Host header Binding
+
+Question: 
+
+Answers:
+Answer 1: 
+
+Answer 2: 
+
+Answer 3: 
+

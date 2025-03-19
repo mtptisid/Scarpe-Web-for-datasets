@@ -1,0 +1,11 @@
+Title: Remove Multiple Snapshots at once in PowerCLI
+
+Question: 
+
+Answers:
+Answer 1: 
+
+Answer 2: 
+
+Answer 3: 
+

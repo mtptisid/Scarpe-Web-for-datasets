@@ -1,0 +1,5 @@
+Title: Vmware PowerCLI: How to use Invoke-VMScript to run command in PowerShell with elevated admin privileges
+
+Question: 
+
+Answers:

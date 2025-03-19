@@ -1,0 +1,5 @@
+Title: is there any way on vSphere to run an Automation Script for Guest OS while booting up or just after VMware tools get installed?
+
+Question: 
+
+Answers:

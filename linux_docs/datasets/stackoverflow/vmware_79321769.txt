@@ -1,0 +1,7 @@
+Title: VMware vSphere cross vCenter VM template clone via SDK
+
+Question: 
+
+Answers:
+Answer 1: 
+

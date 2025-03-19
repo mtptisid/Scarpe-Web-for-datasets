@@ -1,0 +1,5 @@
+Title: How to enable audio input/output for virtual machines in vSphere ESXi?
+
+Question: 
+
+Answers:
