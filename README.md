@@ -71,7 +71,7 @@ Most LLMs struggle with long-form, technical content. Our new attention mechanis
 ```
 from datasets import load_dataset
 
-dataset = load_dataset("your_dataset_name")
+dataset = load_dataset("mtpti5iD/redhat-docs_dataset")
 print(dataset["train"][0])
 ```
 
@@ -117,6 +117,7 @@ trainer.train()
 - **Dataset**: [Hugging Face 🤗](https://huggingface.co/datasets/mtpti5iD/redhat-docs_dataset)  
 - **GitHub Repository**: [GitHub 🔗](https://github.com/mtptisid/Scarpe-Web-for-datasets/)  
 - **Fine-Tuning Guide**: [Notebook Colab 📒](https://colab.research.google.com/drive/1M54O5QVMivuCf1peK1kFy-4-YHX-_i4o?usp=sharing)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M54O5QVMivuCf1peK1kFy-4-YHX-_i4o?usp=sharing)
 
 ---
 
