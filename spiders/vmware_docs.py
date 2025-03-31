@@ -7,23 +7,22 @@ from scrapy.linkextractors import LinkExtractor
 
 class VMwareDocsSpider(CrawlSpider):
     name = "vmware_docs"
-    allowed_domains = ["docs.vmware.com"]
-    start_urls = ["https://docs.vmware.com/en/VMware-vSphere/"]
+    allowed_domains = ["techdocs.broadcom.com"]
+    start_urls = ["https://techdocs.broadcom.com/"]
+    custom_settings = {
+        'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
 
     rules = (
-        Rule(LinkExtractor(allow=r'/en/VMware-vSphere/'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow=r'/'), callback='parse_item', follow=True),
     )
 
     def parse_item(self, response):
         self.log(f"Processing URL: {response.url}")
-        
-        # Try common selectors for VMware docs
         content = response.css('div.content, main, article')
         if content:
             text_elements = content.css('::text').getall()
-            self.log(f"Extracted {len(text_elements)} text elements")
             cleaned_text = self.clean_text(text_elements)
-            self.log(f"Cleaned text length: {len(cleaned_text)} characters")
             if cleaned_text:
                 os.makedirs("datasets/vmware", exist_ok=True)
                 filename = f"{slugify(response.url)}.txt"
@@ -37,6 +36,5 @@ class VMwareDocsSpider(CrawlSpider):
             self.log("No content found on this page")
 
     def clean_text(self, text_elements):
-        self.log(f"Raw text elements sample: {text_elements[:5]}")
         cleaned = ' '.join([text.strip() for text in text_elements if text.strip()])
         return re.sub(r'\s+', ' ', cleaned).strip()
